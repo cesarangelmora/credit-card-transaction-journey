@@ -25,7 +25,7 @@ The payment involves the following participants:
 | **Payment Processor** | Routes transaction data between the merchant, the acquiring bank, and the card network. |
 | **Acquiring Bank** | The merchant's bank, which submits transactions on the merchant's behalf and receives the funds at settlement. |
 | **Card Network** | Connects acquirers and issuers, routes the authorization request, and facilitates clearing and settlement. |
-| **Issuing Bank** | The cardholder's bank, which issued the card, approves or declines the transaction, and bills the cardholder. |
+| **Issuing Bank** | The cardholder's bank, which issued the card. The issuing bank evaluates the authorization request and approves or declines it, then bills the cardholder for the purchase. |
 
 > **Note:** The project research did not confirm the specific companies acting as the payment processor or the acquiring bank for this transaction. These participants are therefore identified by their role rather than by name.
 
